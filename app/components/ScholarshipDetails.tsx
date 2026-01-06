@@ -43,7 +43,7 @@ export default function ScholarshipDetails() {
             This scholarship will be credited to your account at the rate of $750 per six-month term, and renewable for up to four terms.
           </p>
           <p className="text-sm text-gray-900 mb-4 font-medium">Interested in this scholarship?</p>
-          <button className="w-full py-3 bg-[#003057] text-white rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button className="w-full py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Apply to WGU
           </button>
         </div>
@@ -55,7 +55,7 @@ export default function ScholarshipDetails() {
             Before you can apply for this scholarship, you must first apply for admission.
           </p>
           <p className="text-sm text-gray-900 mb-4 font-medium">Already applied for admission?</p>
-          <button className="w-full py-3 bg-[#003057] text-white rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button className="w-full py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Apply for Scholarships
           </button>
         </div>
@@ -66,7 +66,7 @@ export default function ScholarshipDetails() {
           <p className="text-sm leading-relaxed text-gray-600 mb-4">
             This scholarship is one of many. Through the generosity of donors and institutional funding, WGU maintains a robust program of scholarships made available to qualified students.
           </p>
-          <button className="w-full py-3 bg-[#003057] text-white rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button className="w-full py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             View All Scholarships
           </button>
         </div>

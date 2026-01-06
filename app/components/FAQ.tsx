@@ -101,10 +101,10 @@ export default function FAQ() {
           Still have questions? More info can be found here:
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="px-6 py-3 bg-[#003057] text-white rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button className="px-6 py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Watch Scholarships Webinar
           </button>
-          <button className="px-6 py-3 bg-[#003057] text-white rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button className="px-6 py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Scholarship FAQs
           </button>
         </div>

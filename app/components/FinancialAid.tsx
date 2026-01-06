@@ -77,7 +77,7 @@ export default function FinancialAid() {
                 available. Subsidized loans reduce interest based on financial
                 need.
               </p>
-              <button className="px-6 py-3 bg-[#003057] text-white rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+              <button className="px-6 py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
                 See More Financial Aid Info
               </button>
             </div>

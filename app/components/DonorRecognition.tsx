@@ -5,7 +5,7 @@ export default function DonorRecognition() {
       <p className="text-base leading-relaxed mb-8 max-w-3xl mx-auto">
         Scholarship opportunities are made possible in part by the generous support of many companies, foundations, partner organizations, and individuals, including WGU alumni, faculty, and staff. Learn how donors can make a difference at WGU.
       </p>
-      <button className="px-8 py-3 bg-white text-[#003057] rounded text-sm font-semibold hover:opacity-90 transition-opacity">
+      <button className="px-8 py-3 bg-white text-[#003057] rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
         Visit WGU Advancement
       </button>
     </section>

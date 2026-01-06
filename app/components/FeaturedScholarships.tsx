@@ -40,7 +40,7 @@ export default function FeaturedScholarships() {
             </div>
             <h3 className="text-lg font-semibold text-[#003057] mb-2">{scholarship.title}</h3>
             <p className="text-sm text-gray-600 mb-6">Application Deadline: {scholarship.deadline}</p>
-            <button className="w-full py-3 bg-[#003057] text-white rounded text-sm font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+            <button className="w-full py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
               View Scholarship
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                 <path d="M6 12L10 8L6 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
