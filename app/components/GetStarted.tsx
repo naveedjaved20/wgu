@@ -1,4 +1,5 @@
 export default function GetStarted() {
+  // build get started section
   return (
     <section className="bg-[#002855] text-white px-8 py-8 md:px-10 md:py-8 mb-12">
       <h2 className="text-[48px] font-[400] mb-8 text-center">
