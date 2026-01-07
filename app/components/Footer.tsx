@@ -23,171 +23,237 @@ export default function Footer() {
         </div>
 
         {/* Navigation Columns - Below Logo */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
           <div className="flex flex-col gap-3">
-            <h4 className="text-sm font-bold mb-2">The University</h4>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              About Us
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Accessibility
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Accreditation
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Newsroom
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Careers
-            </a>
+            <h4 className="text-sm font-bold mb-2 text-gray-400">
+              The University
+            </h4>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                About Us
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Accessibility
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Accreditation
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Newsroom
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Careers
+              </a>
+            </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h4 className="text-sm font-bold mb-2">For Students</h4>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Student Portal
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Admissions
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Catalog
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Title IX
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Alumni Services
-            </a>
+            <h4 className="text-sm font-bold mb-2 text-gray-400">
+              For Students
+            </h4>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Student Portal
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Admissions
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Catalog
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Title IX
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Alumni Services
+              </a>
+            </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h4 className="text-sm font-bold mb-2">Most Visited Links</h4>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Business Programs
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Bachelor's Degrees
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Student Experience
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Online Degrees
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Scholarships
-            </a>
+            <h4 className="text-sm font-bold mb-2 text-gray-400">
+              Most Visited Links
+            </h4>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Business Programs
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Bachelor's Degrees
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Student Experience
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Online Degrees
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="text-sm transition-opacity footer-link-animated"
+              >
+                Scholarships
+              </a>
+            </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h4 className="text-sm font-bold mb-2">Support</h4>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Military
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Financial Aid
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Testimonials
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Scholarships
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Faculty
-            </a>
-            <a
-              href="#"
-              className="text-sm opacity-90 hover:opacity-100 transition-opacity"
-            >
-              Student Communities
-            </a>
+            <h4 className="text-sm font-bold mb-2 text-gray-400">Support</h4>
+            <div className="flex flex-row gap-10">
+              <div className="flex flex-col gap-3">
+                <div>
+                  <a
+                    href="#"
+                    className="text-sm transition-opacity footer-link-animated"
+                  >
+                    Military
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    className="text-sm transition-opacity footer-link-animated"
+                  >
+                    Financial Aid
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    className="text-sm transition-opacity footer-link-animated"
+                  >
+                    Testimonials
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col gap-3">
+                <div>
+                  <a
+                    href="#"
+                    className="text-sm transition-opacity footer-link-animated"
+                  >
+                    Scholarships
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    className="text-sm transition-opacity footer-link-animated"
+                  >
+                    Faculty
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    className="text-sm transition-opacity footer-link-animated"
+                  >
+                    Student Communities
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Lower Section - Legal, Social, and Copyright */}
-      <div className="max-w-[1400px] mx-auto pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="max-w-[1400px] mx-auto mb-12 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Legal Links */}
-        <div className="flex items-center gap-2 text-xs">
-          <a href="#" className="opacity-90 hover:opacity-100">
+        <div className="flex items-center gap-2 text-xs w-full">
+          <a
+            href="#"
+            className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
+          >
             Privacy Policy
           </a>
-          <span className="opacity-50">|</span>
-          <a href="#" className="opacity-90 hover:opacity-100">
+          <span className="">|</span>
+          <a
+            href="#"
+            className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
+          >
             Cookie Policy
           </a>
-          <span className="opacity-50">|</span>
-          <a href="#" className="opacity-90 hover:opacity-100">
+          <span className="">|</span>
+          <a
+            href="#"
+            className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
+          >
             Contact Us
           </a>
-          <span className="opacity-50">|</span>
-          <a href="#" className="opacity-90 hover:opacity-100">
+          <span className="">|</span>
+          <a
+            href="#"
+            className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
+          >
             Sitemap
           </a>
         </div>
 
         {/* Social Media Icons and Copyright */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-10 w-full">
           {/* Social Media Icons - Circular with borders */}
           <div className="flex gap-3">
             <a
@@ -196,13 +262,23 @@ export default function Footer() {
               className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
               <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="white"
-                className="w-5 h-5"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M18 0H2C0.9 0 0 0.9 0 2V18C0 19.1 0.9 20 2 20H18C19.1 20 20 19.1 20 18V2C20 0.9 19.1 0 18 0ZM6 17H3V8H6V17ZM4.5 6.3C3.5 6.3 2.7 5.5 2.7 4.5C2.7 3.5 3.5 2.7 4.5 2.7C5.5 2.7 6.3 3.5 6.3 4.5C6.3 5.5 5.5 6.3 4.5 6.3ZM17 17H14V12.4C14 11.3 14 9.9 12.5 9.9C11 9.9 10.8 11.1 10.8 12.3V17H7.8V8H10.7V9.2H10.7C11 8.5 11.9 7.8 13.2 7.8C15.8 7.8 17 9.4 17 12.1V17Z" />
+                <circle
+                  opacity="0.7"
+                  r="15.0322"
+                  transform="matrix(-1 0 0 1 15.9551 16)"
+                  stroke="white"
+                  stroke-width="0.935494"
+                />
+                <path
+                  d="M22.4207 16.859V21.1638H19.9272V17.1487C19.9272 16.1389 19.5675 15.4512 18.6642 15.4512C17.9745 15.4512 17.5661 15.9141 17.3849 16.3636C17.32 16.5233 17.3011 16.748 17.3011 16.9727V21.1665H14.8075C14.8075 21.1665 14.84 14.3628 14.8075 13.6589H17.3011V14.7229C17.2957 14.731 17.2903 14.7391 17.2849 14.7472H17.3011V14.7229C17.6337 14.2112 18.2233 13.4829 19.5485 13.4829C21.1902 13.4802 22.4207 14.555 22.4207 16.859ZM12.2003 10.0391C11.3457 10.0391 10.7886 10.5995 10.7886 11.3359C10.7886 12.0561 11.3295 12.6328 12.1679 12.6328H12.1841C13.055 12.6328 13.5959 12.0561 13.5959 11.3359C13.5769 10.5995 13.0523 10.0391 12.2003 10.0391ZM10.9373 21.1665H13.4309V13.6562H10.9373V21.1665Z"
+                  fill="white"
+                />
               </svg>
             </a>
             <a
@@ -211,13 +287,25 @@ export default function Footer() {
               className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
               <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="white"
-                className="w-5 h-5"
+                width="31"
+                height="32"
+                viewBox="0 0 31 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M18 0H2C0.9 0 0 0.9 0 2V18C0 19.1 0.9 20 2 20H10.6V12.3H8.3V9.3H10.6V7.1C10.6 4.6 11.9 3.4 14.1 3.4C15.2 3.4 16.1 3.5 16.4 3.5V6.1H15C13.7 6.1 13.4 6.7 13.4 7.6V9.3H16.3L15.9 12.3H13.4V20H18C19.1 20 20 19.1 20 18V2C20 0.9 19.1 0 18 0Z" />
+                <circle
+                  opacity="0.7"
+                  r="15.0322"
+                  transform="matrix(-1 0 0 1 15.5 16)"
+                  stroke="white"
+                  stroke-width="0.935494"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.4069 12.5433C16.4069 11.9908 16.6678 11.7634 16.9279 11.7634C17.1798 11.7634 18.5917 11.7634 18.5917 11.7634V9.24512H16.3318C13.9105 9.24512 13.3022 11.2205 13.3022 12.4033V13.5204H11.9224V15.4298V16.3315H13.3022C13.3022 19.7284 13.3022 22.5981 13.3022 22.5981H16.4069C16.4069 22.5981 16.4069 19.7284 16.4069 16.3315H18.2873L18.379 15.2333L18.5472 13.5204H16.4069V12.5433Z"
+                  fill="white"
+                />
               </svg>
             </a>
             <a
@@ -226,19 +314,46 @@ export default function Footer() {
               className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
               <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="white"
-                className="w-5 h-5"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M10 1.8C7.2 1.8 6.9 1.8 5.9 1.9C4.9 2 4.1 2.2 3.4 2.5C2.7 2.8 2.1 3.2 1.5 3.8C0.9 4.4 0.5 5 0.2 5.7C-0.1 6.4 -0.3 7.2 -0.4 8.2C-0.5 9.2 -0.5 9.5 -0.5 12.3C-0.5 15.1 -0.5 15.4 -0.4 16.4C-0.3 17.4 -0.1 18.2 0.2 18.9C0.5 19.6 0.9 20.2 1.5 20.8C2.1 21.4 2.7 21.8 3.4 22.1C4.1 22.4 4.9 22.6 5.9 22.7C6.9 22.8 7.2 22.8 10 22.8C12.8 22.8 13.1 22.8 14.1 22.7C15.1 22.6 15.9 22.4 16.6 22.1C17.3 21.8 17.9 21.4 18.5 20.8C19.1 20.2 19.5 19.6 19.8 18.9C20.1 18.2 20.3 17.4 20.4 16.4C20.5 15.4 20.5 15.1 20.5 12.3C20.5 9.5 20.5 9.2 20.4 8.2C20.3 7.2 20.1 6.4 19.8 5.7C19.5 5 19.1 4.4 18.5 3.8C17.9 3.2 17.3 2.8 16.6 2.5C15.9 2.2 15.1 2 14.1 1.9C13.1 1.8 12.8 1.8 10 1.8ZM10 0C12.9 0 13.2 0 14.2 0.1C15.2 0.2 16.1 0.4 17 0.8C18 1.2 18.7 1.7 19.4 2.4C20.1 3.1 20.6 3.8 21 4.8C21.4 5.7 21.6 6.6 21.7 7.6C21.8 8.6 21.8 8.9 21.8 11.8C21.8 14.7 21.8 15 21.7 16C21.6 17 21.4 17.9 21 18.8C20.6 19.8 20.1 20.5 19.4 21.2C18.7 21.9 18 22.4 17 22.8C16.1 23.2 15.2 23.4 14.2 23.5C13.2 23.6 12.9 23.6 10 23.6C7.1 23.6 6.8 23.6 5.8 23.5C4.8 23.4 3.9 23.2 3 22.8C2 22.4 1.3 21.9 0.6 21.2C-0.1 20.5 -0.6 19.8 -1 18.8C-1.4 17.9 -1.6 17 -1.7 16C-1.8 15 -1.8 14.7 -1.8 11.8C-1.8 8.9 -1.8 8.6 -1.7 7.6C-1.6 6.6 -1.4 5.7 -1 4.8C-0.6 3.8 -0.1 3.1 0.6 2.4C1.3 1.7 2 1.2 3 0.8C3.9 0.4 4.8 0.2 5.8 0.1C6.8 0 7.1 0 10 0ZM10 5.4C7.4 5.4 5.4 7.4 5.4 10C5.4 12.6 7.4 14.6 10 14.6C12.6 14.6 14.6 12.6 14.6 10C14.6 7.4 12.6 5.4 10 5.4ZM10 13.1C8.2 13.1 6.9 11.8 6.9 10C6.9 8.2 8.2 6.9 10 6.9C11.8 6.9 13.1 8.2 13.1 10C13.1 11.8 11.8 13.1 10 13.1ZM16.7 4.2C16.7 4.9 16.1 5.5 15.4 5.5C14.7 5.5 14.1 4.9 14.1 4.2C14.1 3.5 14.7 2.9 15.4 2.9C16.1 2.9 16.7 3.5 16.7 4.2Z" />
+                <circle
+                  opacity="0.7"
+                  r="15.0322"
+                  transform="matrix(-1 0 0 1 16.4692 16)"
+                  stroke="white"
+                  stroke-width="0.935494"
+                />
+                <rect
+                  x="9.89455"
+                  y="9.57277"
+                  width="12.9277"
+                  height="12.9423"
+                  rx="2.04706"
+                  stroke="white"
+                  stroke-width="0.655314"
+                />
+                <path
+                  d="M19.3572 16.043C19.3572 17.7022 18.0136 19.0466 16.3572 19.0466C14.7007 19.0466 13.3572 17.7022 13.3572 16.043C13.3572 14.3837 14.7007 13.0393 16.3572 13.0393C18.0136 13.0393 19.3572 14.3837 19.3572 16.043Z"
+                  stroke="white"
+                  stroke-width="0.791573"
+                />
+                <ellipse
+                  cx="21.2358"
+                  cy="11.5817"
+                  rx="0.636712"
+                  ry="0.637391"
+                  fill="white"
+                />
               </svg>
             </a>
             <a
               href="#"
               aria-label="YouTube"
-              className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
+              className="w-10 h-10 rounded-full border-1 border-white/30 flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
               <svg
                 width="20"
@@ -253,7 +368,7 @@ export default function Footer() {
             <a
               href="#"
               aria-label="TikTok"
-              className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
+              className="w-10 h-10 rounded-full border-1 border-white/30 flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
               <svg
                 width="20"
@@ -267,7 +382,7 @@ export default function Footer() {
             </a>
           </div>
           {/* Copyright */}
-          <p className="text-xs opacity-90 whitespace-nowrap">
+          <p className="text-[19px] opacity-90 whitespace-nowrap">
             ©2026 WGU. All rights reserved.
           </p>
         </div>
@@ -275,4 +390,3 @@ export default function Footer() {
     </footer>
   );
 }
-

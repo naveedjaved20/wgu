@@ -54,7 +54,7 @@ body {
 .sidebar-link-hover::before {
   content: "";
   position: absolute;
-  left: -10px;
+  left: -20px;
   top: 50%;
   transform: translateY(-50%);
   width: 3px;
@@ -71,10 +71,76 @@ body {
 .sidebar-link-active::before {
   content: "";
   position: absolute;
-  left: -10px;
+  left: -20px;
   top: 50%;
   transform: translateY(-50%);
   width: 3px;
   height: 50%;
   background-color: #0070f0;
+}
+
+/* Footer link animated border effect */
+.footer-link-animated {
+  position: relative;
+  display: inline-block;
+}
+
+.footer-link-animated::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  transition: width 0.3s ease-out, left 0.3s ease-out, right 0s 0.3s;
+}
+
+/* Hover state - expand from left to right */
+.footer-link-animated:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+  transition: width 0.3s ease-out, left 0.3s ease-out, right 0s;
+}
+
+/* When link loses hover - shrink from right to left */
+.footer-link-animated:not(:hover)::after {
+  width: 0;
+  left: auto;
+  right: 0;
+  transition: width 0.3s ease-out, right 0.3s ease-out, left 0s 0.3s;
+}
+
+/* Header link animated border effect */
+.header-link-animated {
+  position: relative;
+  display: inline-block;
+}
+
+.header-link-animated::after {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #0070f0;
+  transition: width 0.3s ease-out, left 0.3s ease-out, right 0s 0.3s;
+}
+
+/* Hover state - expand from left to right */
+.header-link-animated:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+  transition: width 0.3s ease-out, left 0.3s ease-out, right 0s;
+}
+
+/* When link loses hover - shrink from right to left */
+.header-link-animated:not(:hover)::after {
+  width: 0;
+  left: auto;
+  right: 0;
+  transition: width 0.3s ease-out, right 0.3s ease-out, left 0s 0.3s;
 }

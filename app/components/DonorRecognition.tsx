@@ -1,6 +1,6 @@
 export default function DonorRecognition() {
   return (
-    <section className="bg-[#002855] text-white p-8 md:p-12 text-center mb-12">
+    <section className="bg-[#002855] text-white p-8 md:p-12 text-center">
       <h2 className="text-3xl font-bold mb-6 pl-8">Thank You to Our Donors</h2>
       <p className="text-base leading-relaxed mb-8 max-w-3xl mx-auto pl-8">
         Scholarship opportunities are made possible in part by the generous

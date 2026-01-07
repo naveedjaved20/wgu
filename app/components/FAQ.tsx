@@ -55,19 +55,16 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="mb-12">
+    <section className="py-12 bg-[#EFF6F9] pr-2 md:pr-10">
       <h2 className="text-[58px] font-[400] text-center text-[#003057] mb-8 pl-8">
         Common Questions About Scholarships
       </h2>
       <div className="flex flex-col gap-0 mb-8 pl-8">
         {questions.map((item) => (
-          <div
-            key={item.id}
-            className="border-b border-gray-200 last:border-b-0"
-          >
+          <div key={item.id}>
             <button
               onClick={() => toggleAccordion(item.id)}
-              className="w-full flex justify-between items-center py-4 cursor-pointer hover:text-[#003057] text-[20px] font-[400] transition-colors text-left"
+              className="border-b-1 border-gray-300 w-full px-4 flex justify-between items-center py-4 cursor-pointer text-[20px] hover:text-[#003057] font-[400] transition-colors"
             >
               <span>{item.question}</span>
               <svg
@@ -88,7 +85,7 @@ export default function FAQ() {
               </svg>
             </button>
             {openAccordion === item.id && (
-              <div className="pb-4 text-gray-700 leading-relaxed whitespace-pre-line">
+              <div className="pb-5 pt-5 px-4 text-gray-700 leading-relaxed whitespace-pre-line">
                 {item.answer}
               </div>
             )}

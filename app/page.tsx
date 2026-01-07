@@ -179,8 +179,8 @@ export default function Home() {
       >
         <aside
           ref={sidebarRef}
-          className={`w-[306px] flex-shrink-0 hidden lg:block transition-all duration-300 ${
-            sidebarSticky ? "lg:sticky lg:top-0 h-full xl:max-h-screen" : ""
+          className={`w-[330px] flex-shrink-0 hidden lg:block transition-all duration-300 ${
+            sidebarSticky ? "lg:sticky lg:top-0 h-screen xl:max-h-screen" : ""
           }`}
         >
           <Sidebar />

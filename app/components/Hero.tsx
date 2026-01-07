@@ -52,6 +52,9 @@ export default function Hero() {
               Administrative <br />
               Professionals Scholarships
             </h1>
+            <button className="mt-10 py-3 px-10 bg-white rounded-full text-sm font-semibold text-black transition-opacity">
+              Apply Free
+            </button>
           </div>
         </div>
       </div>

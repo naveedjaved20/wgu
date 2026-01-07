@@ -128,10 +128,10 @@ export default function ScholarshipDetails() {
 
       <div className="flex flex-col gap-4 mt-8 pl-8">
         {/* Eligibility Details Accordion */}
-        <div className="border-b-2 border-gray-200">
+        <div>
           <button
             onClick={() => toggleAccordion("eligibility")}
-            className="w-full px-4 flex justify-between items-center py-4 cursor-pointer text-[20px] hover:text-[#003057] font-[400] transition-colors"
+            className="border-b-1 border-gray-300 w-full px-4 flex justify-between items-center py-4 cursor-pointer text-[20px] hover:text-[#003057] font-[400] transition-colors"
           >
             <span>Eligibility Details</span>
             <svg
@@ -152,21 +152,20 @@ export default function ScholarshipDetails() {
             </svg>
           </button>
           {openAccordion === "eligibility" && (
-            <div className="py-8 px-10 text-gray-700 leading-relaxed">
+            <div className="py-8 px-10  leading-relaxed">
               <p>
-                This scholarship is for new students or returning graduates
-                pursuing a degree from the School of Business (Bachelor's or
-                Master's) at WGU.
+                For new students or returning graduates pursuing a degree from
+                the School of Business (Bachelor's or Master's) at WGU.
               </p>
             </div>
           )}
         </div>
 
         {/* Scholarship Policies Accordion */}
-        <div className="border-b-2 border-gray-200">
+        <div>
           <button
             onClick={() => toggleAccordion("policies")}
-            className="w-full px-4 flex justify-between items-center py-4 cursor-pointer text-[20px] hover:text-[#003057] font-[400] transition-colors"
+            className="border-b-1 border-gray-300 w-full px-4 flex justify-between items-center py-4 cursor-pointer text-[20px] hover:text-[#003057] font-[400] transition-colors"
           >
             <span>Scholarship Policies</span>
             <svg
@@ -187,13 +186,13 @@ export default function ScholarshipDetails() {
             </svg>
           </button>
           {openAccordion === "policies" && (
-            <div className="py-8 px-10 text-gray-700 leading-relaxed space-y-4">
+            <div className="py-8 px-10  leading-relaxed space-y-4">
               <p>
-                Multiple scholarships will be awarded. However, this is a
-                competitive program and scholarships will be awarded based on a
-                candidate's academic record, financial need, readiness for
-                online study at WGU, and current competency, plus other
-                considerations.
+                <b>Multiple scholarships will be awarded</b>. However, this is a
+                <b> competitive program </b> and scholarships will be awarded
+                based on a candidate's academic record, financial need,
+                readiness for online study at WGU, and current competency, plus
+                other considerations.
               </p>
               <p>
                 Before monies are distributed, the scholarship recipients must

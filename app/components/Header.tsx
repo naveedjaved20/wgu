@@ -25,31 +25,31 @@ export default function Header() {
           <nav className="hidden lg:flex gap-6 xl:gap-6 flex-1 justify-center ml-8">
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap"
+              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap header-link-animated"
             >
               Online Degrees
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap"
+              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap header-link-animated"
             >
               Admissions & Transfers
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap"
+              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap header-link-animated"
             >
               Tuition & Financial Aid
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap"
+              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap header-link-animated"
             >
               Student Success
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap"
+              className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors whitespace-nowrap header-link-animated"
             >
               More
             </a>
@@ -140,35 +140,35 @@ export default function Header() {
             <nav className="flex flex-col gap-2 pb-3 border-b border-gray-200">
               <a
                 href="#"
-                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2"
+                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2 header-link-animated"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Online Degrees
               </a>
               <a
                 href="#"
-                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2"
+                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2 header-link-animated"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Admissions & Transfers
               </a>
               <a
                 href="#"
-                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2"
+                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2 header-link-animated"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Tuition & Financial Aid
               </a>
               <a
                 href="#"
-                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2"
+                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2 header-link-animated"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Student Success
               </a>
               <a
                 href="#"
-                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2"
+                className="text-gray-900 hover:text-[#003057] text-[16px] font-[400] transition-colors py-2 header-link-animated"
                 onClick={() => setIsMenuOpen(false)}
               >
                 More

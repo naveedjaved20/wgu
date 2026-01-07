@@ -31,31 +31,31 @@ export default function FinancialAid() {
   return (
     <section className="">
       {/* Financial Aid Section */}
-      <div className="bg-gray-50 rounded-lg p-8 mb-12">
-        <div className="max-w-[1400px] mx-auto pl-8">
-          <div className="flex flex-col lg:flex-row gap-14 items-start">
+      <div className="bg-[#F1F1F1] p-8">
+        <div className="max-w-[1400px] mx-auto pl-3 pt-10 pb-10">
+          <div className="flex flex-col lg:flex-row gap-6 items-start">
             {/* Left Column - FAFSA */}
             <div className="flex-shrink-0 flex justify-center flex-col items-center">
               <div className="mb-4">
                 <Image
                   src="/iconsImage/fafsa-illustration.webp"
                   alt="FAFSA Federal Student Aid"
-                  width={300}
+                  width={265}
                   height={120}
                   className="mb-2"
                 />
               </div>
-              <p className="text-[18px] w-[350px] text-center text-gray-700 mb-4">
+              <p className="text-[18px] w-[300px] text-center mb-4">
                 When you complete the FAFSA, be sure to list WGU's school code.
               </p>
-              <p className="text-3xl text-center font-bold text-gray-900">
-                Code: <span className="text-[#003057]">033394</span>
+              <p className="text-[26px] text-center font-bold">
+                Code: <span className="">033394</span>
               </p>
             </div>
 
             {/* Right Column - Financial Aid Info */}
             <div className="flex-1">
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-[26px] font-bold text-gray-900 mb-4">
                 Financial Aid is also Available
               </h3>
               <p className="text-[18px] leading-relaxed mb-6">
@@ -77,37 +77,44 @@ export default function FinancialAid() {
       {/* Four Schools Section */}
       <div className="py-14 px-10" style={{ backgroundColor: "#EFF6F9" }}>
         <div className="max-w-[1400px] mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
+          <h2 className="text-[26px] font-[700] text-center mb-8">
             Four Schools, One Purpose
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {schools.map((school, index) => (
               <div
                 key={index}
-                className="bg-white p-6 shadow-2xl hover:shadow-md transition-shadow"
+                className="bg-white shadow-2xl hover:shadow-md transition-shadow"
               >
-                <div className="mb-4 flex flex-row gap-6 items-center">
+                <div className="mb-2 flex flex-row gap-5 items-center p-3 transition-all cursor-pointer group relative overflow-hidden">
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    style={{
+                      background:
+                        "radial-gradient(91.7% 109.57% at 73.16% 8.3%, #014ca2 0, #0070f0 100%)",
+                    }}
+                  />
                   <Image
                     src={school.icon}
                     alt={school.name}
-                    width={32}
-                    height={32}
-                    className="w-8 h-8"
+                    width={24}
+                    height={24}
+                    className="w-7 h-7 relative z-10 ml-3 transition-all duration-300 group-hover:brightness-0 group-hover:invert"
                   />
-                  <h3 className="text-sm font-bold text-gray-900 uppercase">
+                  <h3 className="text-sm font-bold text-gray-900 uppercase relative z-10 group-hover:text-white transition-colors duration-300">
                     {school.name}
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-3 mt-7">
+                <div className="flex flex-col gap-3 px-4 py-4">
                   {school.degrees.map((degree, degreeIndex) => (
                     <a
                       key={degreeIndex}
                       href="#"
-                      className="flex flex-row w-full justify-between text-[17px] text-[#0070f0] hover:underline flex items-center gap-1 group"
+                      className="flex flex-row w-full justify-between text-[17px] text-[#0070f0] flex items-center gap-1 group"
                     >
                       <span>{degree}</span>
-                      <div className="bg-[#2d8eff33] rounded-full p-1 flex items-center justify-center">
+                      <div className="bg-[#2d8eff33] rounded-full p-1 flex items-center justify-center group-hover:translate-x-1 transition-transform duration-300">
                         {" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
