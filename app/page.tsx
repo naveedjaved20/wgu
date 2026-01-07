@@ -175,22 +175,22 @@ export default function Home() {
       {/* Content Wrapper with Sidebar and Main Content */}
       <div
         ref={contentWrapperRef}
-        className="max-w-[1400px] mx-auto flex px-4 md:px-8 bg-white"
+        className="max-w-[1500px] mx-auto flex px-4 md:px-8 bg-white"
       >
         <aside
           ref={sidebarRef}
-          className={`w-[320px] flex-shrink-0 hidden lg:block transition-all duration-300 ${
+          className={`w-[306px] flex-shrink-0 hidden lg:block transition-all duration-300 ${
             sidebarSticky ? "lg:sticky lg:top-0 lg:max-h-screen" : ""
           }`}
         >
           <Sidebar />
         </aside>
-        <div className="flex-1 min-w-0 pl-8">
-          <main ref={mainContentRef} className="py-8">
+        <div className="flex-1 min-w-0">
+          <main ref={mainContentRef} className="pt-8">
             <ScholarshipDetails />
+            <GetStarted />
             <FeaturedScholarships />
             <FAQ />
-            <GetStarted />
             <DonorRecognition />
             <FinancialAid />
           </main>
@@ -199,7 +199,7 @@ export default function Home() {
       <footer ref={footerRef}>
         <Footer />
       </footer>
-      <div className="fixed bottom-8 right-8 w-14 h-14 bg-[#003057] rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:scale-110 transition-transform z-50">
+      <div className="fixed bottom-8 right-8 w-14 h-14 bg-[#001731] rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:scale-110 transition-transform z-50">
         <svg
           width="24"
           height="24"

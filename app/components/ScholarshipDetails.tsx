@@ -10,9 +10,9 @@ export default function ScholarshipDetails() {
     setOpenAccordion(openAccordion === id ? null : id);
   };
   return (
-    <section className="mb-12">
-      <div className="flex flex-col lg:flex-row gap-8 mb-12">
-        <div className="flex-1 min-h-[300px] relative rounded-lg overflow-hidden">
+    <section className="mb-12 mt-15">
+      <div className="flex flex-col lg:flex-row gap-8 mb-12 pl-8">
+        <div className="flex-1 max-h-[300px] max-w-[40%] relative overflow-hidden">
           <Image
             src="/iconsImage/two-professional.webp"
             alt="Two professionals at desk"
@@ -20,64 +20,95 @@ export default function ScholarshipDetails() {
             className="object-cover"
           />
         </div>
-        <div className="flex-1 text-base leading-relaxed text-gray-900">
+        <div className="flex-1 text-[18px] font-[400] leading-relaxed text-gray-900">
           <p className="mb-4">
-            Western Governors University is pleased to announce the <strong className="text-[#003057] font-semibold">Speed of Business Scholarship</strong> (worth up to $3,000) that can be applied toward any of WGU's School of Business degree programs.
+            Western Governors University is pleased to announce the{" "}
+            <strong className="text-[#003057] font-semibold">
+              Speed of Business Scholarship
+            </strong>{" "}
+            (worth up to $3,000) that can be applied toward any of WGU's School
+            of Business degree programs.
           </p>
           <p className="mb-4">
-            Our business programs are at the cutting edge of our industry, and we focus on return on investment. Complete courses as soon as you master the material, making it possible to graduate faster. Tuition is per term rather than per credit, allowing for acceleration and immediate return on your investment.
+            Our business programs are at the cutting edge of our industry, and
+            we focus on return on investment. Complete courses as soon as you
+            master the material, making it possible to graduate faster. Tuition
+            is per term rather than per credit, allowing for acceleration and
+            immediate return on your investment.
           </p>
           <p>
-            WGU grads see an average salary increase of $22,200 within two years of graduation. We pride ourselves on empowering students to learn at the speed of business and earn the skills needed to achieve their professional goals. Apply today.
+            WGU grads see an average salary increase of $22,200 within two years
+            of graduation. We pride ourselves on empowering students to learn at
+            the speed of business and earn the skills needed to achieve their
+            professional goals. Apply today.
           </p>
         </div>
       </div>
-      
-      <h2 className="text-3xl font-bold text-[#003057] mb-8">Scholarship Details</h2>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-        <div className="bg-gray-50 border-2 border-blue-100 rounded-lg p-8">
-          <h3 className="text-sm font-semibold text-[#003057] mb-4">Scholarship (valued up to):</h3>
-          <p className="text-4xl font-bold text-[#003057] mb-4">$3,000</p>
-          <p className="text-sm leading-relaxed text-gray-600 mb-4">
-            This scholarship will be credited to your account at the rate of $750 per six-month term, and renewable for up to four terms.
+
+      <h2 className="text-[55px] font-[400] line-height-[58px] text-[#003057] mb-8 pt-[40px] pl-8">
+        Scholarship Details
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 pl-8">
+        <div className="bg-[#EFF6F9] p-8">
+          <h3 className="text-[18px] text-center font-[500] mb-4">
+            Scholarship (valued up to):
+          </h3>
+          <p className="text-[58px] text-center font-bold mb-4">$3,000</p>
+          <p className="text-[16px] text-center font-[400] leading-relaxed text-gray-900">
+            This scholarship will be credited to your account at the rate of
+            $750 per six-month term, and renewable for up to four terms.
           </p>
-          <p className="text-sm text-gray-900 mb-4 font-medium">Interested in this scholarship?</p>
-          <button className="w-full py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <p className="text-[17px] text-center text-gray-900 mb-4 font-[500]">
+            The first step is to apply for admission.
+          </p>
+          <button className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Apply to WGU
           </button>
         </div>
-        
-        <div className="bg-gray-50 border-2 border-blue-100 rounded-lg p-8">
-          <h3 className="text-sm font-semibold text-[#003057] mb-4">Deadline (per 2025-26 aid year):</h3>
-          <p className="text-4xl font-bold text-[#003057] mb-4">6/30/26</p>
-          <p className="text-sm leading-relaxed text-gray-600 mb-4">
-            Before you can apply for this scholarship, you must first apply for admission.
+
+        <div className="bg-[#EFF6F9] p-8">
+          <h3 className="text-[18px] text-center font-[500] mb-4">
+            Deadline (per 2025-26 aid year):
+          </h3>
+          <p className="text-[58px] text-center font-bold mb-4">6/30/26</p>
+          <p className="text-[16px] text-center font-[400] leading-relaxed text-gray-900">
+            Before you can apply for this scholarship, you must first apply for
+            admission.
           </p>
-          <p className="text-sm text-gray-900 mb-4 font-medium">Already applied for admission?</p>
-          <button className="w-full py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <p className="text-[16px] text-center text-gray-900 mb-4">
+            <span className="text-[16px] text-gray-900 mb-4 font-[500]">
+              Already applied for admission?
+            </span>{" "}
+            Apply for scholarships on the Scholarship Portal.
+          </p>
+          <button className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Apply for Scholarships
           </button>
         </div>
-        
-        <div className="bg-gray-50 border-2 border-blue-100 rounded-lg p-8">
-          <h3 className="text-sm font-semibold text-[#003057] mb-4">Additional Opportunities:</h3>
-          <p className="text-4xl font-bold text-[#003057] mb-4">80+</p>
-          <p className="text-sm leading-relaxed text-gray-600 mb-4">
-            This scholarship is one of many. Through the generosity of donors and institutional funding, WGU maintains a robust program of scholarships made available to qualified students.
+
+        <div className="bg-gray-100 p-8">
+          <h3 className="text-[18px] text-center font-[500] mb-4">
+            Additional Opportunities:
+          </h3>
+          <p className="text-[58px] text-center font-bold mb-4">80+</p>
+          <p className="text-[16px] text-center font-[400] leading-relaxed text-gray-900 mb-4">
+            This scholarship is one of many. Through the generosity of donors
+            and institutional funding, WGU maintains a robust program of
+            scholarships made available to qualified students.
           </p>
-          <button className="w-full py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             View All Scholarships
           </button>
         </div>
       </div>
-      
-      <div className="flex flex-col gap-4 mt-8">
+
+      <div className="flex flex-col gap-4 mt-8 pl-8">
         {/* Eligibility Details Accordion */}
         <div className="border-b-2 border-gray-200">
           <button
             onClick={() => toggleAccordion("eligibility")}
-            className="w-full flex justify-between items-center py-4 cursor-pointer hover:text-[#003057] font-medium transition-colors"
+            className="w-full px-4 flex justify-between items-center py-4 cursor-pointer text-[20px] hover:text-[#003057] font-[400] transition-colors"
           >
             <span>Eligibility Details</span>
             <svg
@@ -98,7 +129,7 @@ export default function ScholarshipDetails() {
             </svg>
           </button>
           {openAccordion === "eligibility" && (
-            <div className="pb-4 text-gray-700 leading-relaxed">
+            <div className="py-8 px-10 text-gray-700 leading-relaxed">
               <p>
                 This scholarship is for new students or returning graduates
                 pursuing a degree from the School of Business (Bachelor's or
@@ -112,7 +143,7 @@ export default function ScholarshipDetails() {
         <div className="border-b-2 border-gray-200">
           <button
             onClick={() => toggleAccordion("policies")}
-            className="w-full flex justify-between items-center py-4 cursor-pointer hover:text-[#003057] font-medium transition-colors"
+            className="w-full px-4 flex justify-between items-center py-4 cursor-pointer text-[20px] hover:text-[#003057] font-[400] transition-colors"
           >
             <span>Scholarship Policies</span>
             <svg
@@ -133,7 +164,7 @@ export default function ScholarshipDetails() {
             </svg>
           </button>
           {openAccordion === "policies" && (
-            <div className="pb-4 text-gray-700 leading-relaxed space-y-4">
+            <div className="py-8 px-10 text-gray-700 leading-relaxed space-y-4">
               <p>
                 Multiple scholarships will be awarded. However, this is a
                 competitive program and scholarships will be awarded based on a
@@ -164,4 +195,3 @@ export default function ScholarshipDetails() {
     </section>
   );
 }
-

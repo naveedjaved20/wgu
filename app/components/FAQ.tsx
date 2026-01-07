@@ -56,10 +56,10 @@ export default function FAQ() {
 
   return (
     <section className="mb-12">
-      <h2 className="text-3xl font-bold text-[#003057] mb-8">
+      <h2 className="text-[58px] font-[400] text-center text-[#003057] mb-8 pl-8">
         Common Questions About Scholarships
       </h2>
-      <div className="flex flex-col gap-0 mb-8">
+      <div className="flex flex-col gap-0 mb-8 pl-8">
         {questions.map((item) => (
           <div
             key={item.id}
@@ -67,7 +67,7 @@ export default function FAQ() {
           >
             <button
               onClick={() => toggleAccordion(item.id)}
-              className="w-full flex justify-between items-center py-4 cursor-pointer hover:text-[#003057] font-medium transition-colors text-left"
+              className="w-full flex justify-between items-center py-4 cursor-pointer hover:text-[#003057] text-[20px] font-[400] transition-colors text-left"
             >
               <span>{item.question}</span>
               <svg
@@ -96,15 +96,15 @@ export default function FAQ() {
         ))}
       </div>
 
-      <div className="mt-8">
-        <p className="mb-4 text-gray-600">
+      <div className="mt-8 pl-8 items-center flex flex-col">
+        <p className="mb-4 ">
           Still have questions? More info can be found here:
         </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <button className="px-6 py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+        <div className="flex flex-col sm:flex-row justify-between px-[20%] w-full">
+          <button className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Watch Scholarships Webinar
           </button>
-          <button className="px-6 py-3 bg-[#003057] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
             Scholarship FAQs
           </button>
         </div>
@@ -112,4 +112,3 @@ export default function FAQ() {
     </section>
   );
 }
-
