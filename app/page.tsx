@@ -180,13 +180,13 @@ export default function Home() {
         <aside
           ref={sidebarRef}
           className={`w-[306px] flex-shrink-0 hidden lg:block transition-all duration-300 ${
-            sidebarSticky ? "lg:sticky lg:top-0 lg:max-h-screen" : ""
+            sidebarSticky ? "lg:sticky lg:top-0 h-full xl:max-h-screen" : ""
           }`}
         >
           <Sidebar />
         </aside>
         <div className="flex-1 min-w-0">
-          <main ref={mainContentRef} className="pt-8">
+          <main ref={mainContentRef} className="pt-6">
             <ScholarshipDetails />
             <GetStarted />
             <FeaturedScholarships />

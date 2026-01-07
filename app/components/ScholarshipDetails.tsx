@@ -14,7 +14,7 @@ export default function ScholarshipDetails() {
       <div className="flex flex-col lg:flex-row gap-8 mb-12 pl-8">
         <div className="flex-1 max-h-[300px] max-w-[40%] relative overflow-hidden">
           <Image
-            src="/iconsImage/two-professional.webp"
+            src="/iconsImage/mainSection.jpeg"
             alt="Two professionals at desk"
             fill
             className="object-cover"
@@ -45,9 +45,32 @@ export default function ScholarshipDetails() {
         </div>
       </div>
 
-      <h2 className="text-[55px] font-[400] line-height-[58px] text-[#003057] mb-8 pt-[40px] pl-8">
+      <h2 className="text-[55px] font-[400] line-height-[58px] text-[#003057] pt-[40px] pl-8">
         Scholarship Details
       </h2>
+      <div className="pl-8 flex flex-col gap-5 py-8">
+        <p className=" font-[400]">
+          The{" "}
+          <b className="font-[500]">
+            Future Black Women in Business & Finance Scholarship
+          </b>{" "}
+          is designed to support Black women who are pursuing higher education
+          in{" "}
+          <b className="font-[500]">
+            Accounting, Finance, Business Administration, or Project Management
+          </b>
+          at <b className="font-[500]"> Western Governors University (WGU)</b>.
+          This scholarship aims to reduce financial barriers, encourage academic
+          excellence, and promote long-term career success in business-related
+          fields.
+        </p>
+        <p className=" font-[400]">
+          WGU is proud to offer the Future Black Women in Business scholarship.
+          We will award multiple scholarship - each valued up to 4000$ - to
+          motivate women to achieve their dream of college degree in business,
+          accounting, finance and project management.
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 pl-8">
         <div className="bg-[#EFF6F9] p-8">
@@ -71,7 +94,7 @@ export default function ScholarshipDetails() {
           <h3 className="text-[18px] text-center font-[500] mb-4">
             Deadline (per 2025-26 aid year):
           </h3>
-          <p className="text-[58px] text-center font-bold mb-4">6/30/26</p>
+          <p className="text-[58px] text-center font-bold mb-4">01/12/26</p>
           <p className="text-[16px] text-center font-[400] leading-relaxed text-gray-900">
             Before you can apply for this scholarship, you must first apply for
             admission.

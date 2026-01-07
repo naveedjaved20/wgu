@@ -6,12 +6,12 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/iconsImage/business-header.jpg"
+          src="/iconsImage/heroSection.jpeg"
           alt="Business header"
           fill
           className="object-cover"
           style={{
-            objectPosition: "50% 30%",
+            objectPosition: "50% 15%",
           }}
           priority
         />
@@ -49,7 +49,8 @@ export default function Hero() {
                 textShadow: "2px 2px 5px #000",
               }}
             >
-              Speed of Business Scholarship
+              Administrative <br />
+              Professionals Scholarships
             </h1>
           </div>
         </div>

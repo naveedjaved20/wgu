@@ -1,11 +1,11 @@
 export default function Sidebar() {
   return (
     <div className="w-full min-h-full bg-white rounded-lg p-6 shadow-2xl flex flex-col">
-      <div className="mb-3 mt-14">
+      <div className="mb-3 mt-10 xl:mt-12">
         <h3 className="text-[19px] font-[400] text-[#003057] uppercase tracking-wide mb-2">
           TUITION & FEES
         </h3>
-        <nav className="flex flex-col gap-2 ml-6">
+        <nav className="flex flex-col ml-6">
           <a
             href="#"
             className="sidebar-link-hover text-gray-900 hover:text-[#003057] text-[19px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[500] "
