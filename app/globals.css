@@ -30,16 +30,16 @@ body {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .scrollbar-hide {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 .cmp-container-gradient::before {
-  background: linear-gradient(
-    90.13deg,
-    #030031 0.1%,
-    rgba(0, 23, 49, 0) 99.88%
-  );
+  background: linear-gradient(90.13deg,
+      #030031 0.1%,
+      rgba(0, 23, 49, 0) 99.88%);
   content: "";
   height: 100%;
   left: 0;
@@ -183,11 +183,13 @@ body {
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;
     transform: scale(1);
   }
+
   50% {
     opacity: 0.5;
     transform: scale(1.2);
@@ -198,9 +200,11 @@ body {
   0% {
     stroke-dashoffset: 100;
   }
+
   50% {
     stroke-dashoffset: 0;
   }
+
   100% {
     stroke-dashoffset: 100;
   }
@@ -241,7 +245,7 @@ svg[class*="chat-bubble"] {
 .line {
   fill: none;
   stroke: #fff;
-  stroke-width: 2.75;
+  stroke-width: 3.75px;
   stroke-linecap: round;
   -webkit-transition: stroke-dashoffset 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   transition: stroke-dashoffset 0.5s cubic-bezier(0.4, 0, 0.2, 1);
