@@ -44,7 +44,7 @@ export default function Sidebar() {
           </a>
           <a
             href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
-            className="sidebar-link-active text-[#003057] font-medium text-[20px] py-2 relative "
+            className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Scholarships
           </a>
