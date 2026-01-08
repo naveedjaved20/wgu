@@ -7,7 +7,7 @@ export default function Sidebar() {
         </h3>
         <nav className="flex flex-col gap-1 ml-8">
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Overview
@@ -19,55 +19,55 @@ export default function Sidebar() {
             Financial Aid
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/tuition-it-degrees.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Tuition - School of Technology
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/tuition-nursing-health-degrees.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Tuition - Leavitt School of Health
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/tuition-business-degrees.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Tuition - School of Business
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/tuition-teaching-education-degrees.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Tuition - School of Education
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
             className="sidebar-link-active text-[#003057] font-medium text-[20px] py-2 relative "
           >
             Scholarships
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/corporate-reimbursement.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Corporate Reimbursement
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/net-price-calculator.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Net Price Calculator
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/tuition-comparison.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Tuition Comparison
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/payment-plans.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] pt-2 transition-all relative hover:font-[450] "
           >
             Payment Plans
