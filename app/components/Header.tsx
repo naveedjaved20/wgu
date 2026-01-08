@@ -1707,136 +1707,174 @@ export default function Header() {
                       <div className="grid grid-cols-2 gap-4">
                         {selectedLevel === "Apply" && (
                           <div className="flex flex-col gap-4 pl-4 py-8">
-                            <a
-                              href="https://apply.wgu.edu/register"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              New Students
-            </a>
-            <a
-                              href="https://www.wgu.edu/alumni/stay-involved/continuing-grad.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              WGU Returning Graduates
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/restart.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              WGU Readmission
-                            </a>
+                            <div>
+                              <a
+                                href="https://apply.wgu.edu/register"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                New Students
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/alumni/stay-involved/continuing-grad.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                WGU Returning Graduates
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/restart.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                WGU Readmission
+                              </a>
+                            </div>
                           </div>
                         )}
                         {selectedLevel === "Enrollment" && (
                           <div className="flex flex-col gap-4 pl-4 py-8">
-                            <a
-                              href="https://www.wgu.edu/admissions/enrollment.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Enrollment Checklist
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/accessibility.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Accessibility
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/ada-form.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Accommodation Request
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/enrollment.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Enrollment Checklist
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/accessibility.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Accessibility
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/ada-form.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Accommodation Request
+                              </a>
+                            </div>
                           </div>
                         )}
                         {selectedLevel === "Admission Requirements" && (
                           <div className="flex flex-col gap-4 pl-4 py-8">
-                            <a
-                              href="https://www.wgu.edu/admissions/teaching-requirements.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              School of Education Admission Requirements
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/business-requirements.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              School of Business Admission Requirements
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/it-requirements.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              School of Technology Admission Requirements
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/nursing-health-requirements.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Leavitt School of Health Admission Requirements
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/teaching-requirements.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                School of Education Admission Requirements
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/business-requirements.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                School of Business Admission Requirements
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/it-requirements.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                School of Technology Admission Requirements
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/nursing-health-requirements.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Leavitt School of Health Admission Requirements
+                              </a>
+                            </div>
                           </div>
                         )}
                         {selectedLevel === "Additional Requirements" && (
                           <div className="flex flex-col gap-4 pl-4 py-8">
-                            <a
-                              href="https://www.wgu.edu/admissions/computer-requirements.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Computer Requirements
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/no-standardized-testing.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              No Standardized Testing
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/clinicals.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Health and Nursing Clinical Information
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/student-teaching.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Student Teaching Information
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/computer-requirements.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Computer Requirements
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/no-standardized-testing.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                No Standardized Testing
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/clinicals.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Health and Nursing Clinical Information
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/student-teaching.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Student Teaching Information
+                              </a>
+                            </div>
                           </div>
                         )}
                         {selectedAdmissionsItem === "Transfers" && (
                           <div className="flex flex-col gap-4 pl-4 py-8">
-                            <a
-                              href="https://www.wgu.edu/admissions/transfers.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              FAQs about Transferring
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/transfers/transfer-to-wgu.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Transfer to WGU
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/transfers/wgu-transcript-request/transferable-certifications.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Transferrable Certifications
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/transfers/wgu-transcript-request.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              Request WGU Transcripts
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/admissions/international-transfer-credit.html"
-                              className="font-[400] text-[16px] header-link-animated"
-                            >
-                              International Transfer Credit
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/transfers.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                FAQs about Transferring
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/transfers/transfer-to-wgu.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Transfer to WGU
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/transfers/wgu-transcript-request/transferable-certifications.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Transferrable Certifications
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/transfers/wgu-transcript-request.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                Request WGU Transcripts
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/admissions/international-transfer-credit.html"
+                                className="font-[400] text-[16px] header-link-animated"
+                              >
+                                International Transfer Credit
+                              </a>
+                            </div>
                           </div>
                         )}
                       </div>
@@ -1977,168 +2015,216 @@ export default function Header() {
                       <div className="flex flex-col gap-1">
                         {selectedTuitionItem === "Tuition-and-Fees" && (
                           <>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Tuition and Fees
-            </a>
-            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/tuition-business-degrees.html"
-                              className="text-[16px] py-2 transition-colors"
-            >
-                              Tuition - School of Business
-            </a>
-            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/tuition-teaching-education-degrees.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Tuition - School of Education
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/tuition-it-degrees.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Tuition - School of Technology
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/tuition-nursing-health-degrees.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Tuition - Leavitt School of Health
-                            </a>
-                            <a
-                              href=" https://www.wgu.edu/financial-aid-tuition/financial-aid/obligations.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Your Financial Obligations
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/tuition-comparison.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Tuition Comparison
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Tuition and Fees
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/tuition-business-degrees.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Tuition - School of Business
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/tuition-teaching-education-degrees.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Tuition - School of Education
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/tuition-it-degrees.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Tuition - School of Technology
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/tuition-nursing-health-degrees.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Tuition - Leavitt School of Health
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid/obligations.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Your Financial Obligations
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/tuition-comparison.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Tuition Comparison
+                              </a>
+                            </div>
                           </>
                         )}
 
                         {selectedTuitionItem === "Scholarships" && (
                           <>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              See All Scholarships
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Military Scholarships
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              State Scholarships
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/scholarships/faqs.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Scholarship FAQs
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                See All Scholarships
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Military Scholarships
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                State Scholarships
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/scholarships/faqs.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Scholarship FAQs
+                              </a>
+                            </div>
                           </>
                         )}
                         {selectedTuitionItem ===
                           "Other Ways to Pay for School" && (
                           <>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/payment-plans.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Payment Plans
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/corporate-reimbursement.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Corporate Reimbursement
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/current-student-hardship-assistance.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Current Student Hardship Assistance
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/student-experience/military/tuition-assistance.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Military Tuition Assistance
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/payment-plans.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Payment Plans
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/corporate-reimbursement.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Corporate Reimbursement
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/current-student-hardship-assistance.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Current Student Hardship Assistance
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/student-experience/military/tuition-assistance.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Military Tuition Assistance
+                              </a>
+                            </div>
                           </>
                         )}
                         {selectedTuitionItem1 === "Financial Aid" && (
                           <>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/financial-aid.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Financial Aid
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/financial-aid/apply.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Applying for Financial Aid
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/financial-aid/state-grants.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              State Grants
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/financial-aid/consumer-information.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Consumer Information Guide
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/financial-aid/responsible-borrowing-initiative.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Responsible Borrowing Initiative
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/financial-aid/higher-ed-relief-fund.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Higher Education Relief Fund
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Financial Aid
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid/apply.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Applying for Financial Aid
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid/state-grants.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                State Grants
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid/consumer-information.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Consumer Information Guide
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid/responsible-borrowing-initiative.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Responsible Borrowing Initiative
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid/higher-ed-relief-fund.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Higher Education Relief Fund
+                              </a>
+                            </div>
                           </>
                         )}
                         {selectedTuitionItem1 === "FAFSA Support" && (
                           <>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/fafsa-help.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              FAFSA Help
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/net-price-calculator.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              Net Price Calculator
-                            </a>
-                            <a
-                              href="https://www.wgu.edu/financial-aid-tuition/financial-aid/fafsa-simplification.html"
-                              className="text-[16px] py-2 transition-colors"
-                            >
-                              FAFSA Simplification
-                            </a>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/fafsa-help.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                FAFSA Help
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/net-price-calculator.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                Net Price Calculator
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                href="https://www.wgu.edu/financial-aid-tuition/financial-aid/fafsa-simplification.html"
+                                className="text-[16px] py-2 transition-colors header-link-animated"
+                              >
+                                FAFSA Simplification
+                              </a>
+                            </div>
                           </>
                         )}
                       </div>
@@ -2192,60 +2278,78 @@ export default function Header() {
 
                     {/* Links List */}
                     <div className="flex flex-col pt-2">
-                      <a
-                        href="https://www.wgu.edu/online-degree-programs.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        Prospective Students
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/student-portal.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        Current Students
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/student-experience/military.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        Military and Veterans
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/alumni.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        WGU Alumni
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/alumni/commencement.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        Commencement
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/about/careers.html"
-                        className="text-[#003057] text-sm py-2 px-2 transition-colors font-medium"
-                      >
-                        Careers at WGU
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/advancement.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        Advancement & Giving
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/partnerships.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        Partnering with WGU
-                      </a>
-                      <a
-                        href="https://www.wgu.edu/lp/programs/wgu-store.html"
-                        className="text-sm py-2 px-2 transition-colors header-link-animated"
-                      >
-                        Shop at the WGU Store
-                      </a>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/online-degree-programs.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          Prospective Students
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/student-portal.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          Current Students
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/student-experience/military.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          Military and Veterans
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/alumni.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          WGU Alumni
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/alumni/commencement.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          Commencement
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/about/careers.html"
+                          className="text-[#003057] text-sm py-2 px-2 transition-colors font-medium header-link-animated"
+                        >
+                          Careers at WGU
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/advancement.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          Advancement & Giving
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/partnerships.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          Partnering with WGU
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://www.wgu.edu/lp/programs/wgu-store.html"
+                          className="text-sm py-2 px-2 transition-colors header-link-animated"
+                        >
+                          Shop at the WGU Store
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
