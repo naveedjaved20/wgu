@@ -87,8 +87,8 @@ export default function ScholarshipDetails() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 pl-8">
-        <div className="bg-[#EFF6F9] p-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 pl-8 auto-rows-fr">
+        <div className="bg-[#EFF6F9] p-8 flex flex-col justify-between h-full">
           <h3 className="text-[18px] text-center font-[500] mb-4">
             Scholarship (valued up to):
           </h3>
@@ -110,7 +110,7 @@ export default function ScholarshipDetails() {
           </button>
         </div>
 
-        <div className="bg-[#EFF6F9] p-8">
+        <div className="bg-[#EFF6F9] p-8 flex flex-col justify-between h-full">
           <h3 className="text-[18px] text-center font-[500] mb-4">
             Deadline (per 2025-26 aid year):
           </h3>
@@ -135,7 +135,7 @@ export default function ScholarshipDetails() {
           </button>
         </div>
 
-        <div className="bg-gray-100 p-8">
+        <div className="bg-gray-100 p-8 flex flex-col justify-between h-full">
           <h3 className="text-[18px] text-center font-[500] mb-4">
             Additional Opportunities:
           </h3>
