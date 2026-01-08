@@ -144,3 +144,104 @@ body {
   right: 0;
   transition: width 0.3s ease-out, right 0.3s ease-out, left 0s 0.3s;
 }
+
+/* Chat bubble animations */
+.chat-bubble .circle {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.chat-bubble .circle1 {
+  animation-delay: 0s;
+}
+
+.chat-bubble .circle2 {
+  animation-delay: 0.2s;
+}
+
+.chat-bubble .circle3 {
+  animation-delay: 0.4s;
+}
+
+.chat-bubble .line {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: drawLine 2s ease-in-out infinite;
+}
+
+.chat-bubble .line1 {
+  animation-delay: 0.5s;
+}
+
+.chat-bubble .line2 {
+  animation-delay: 0.7s;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes drawLine {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 100;
+  }
+}
+
+svg[class*="chat-bubble"] {
+  width: 100;
+  height: 100;
+}
+
+.bubble {
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.17, 0.61, 0.54, 0.9);
+  transition: -webkit-transform 0.5s cubic-bezier(0.17, 0.61, 0.54, 0.9);
+  transition: transform 0.5s cubic-bezier(0.17, 0.61, 0.54, 0.9);
+  transition: transform 0.5s cubic-bezier(0.17, 0.61, 0.54, 0.9),
+    -webkit-transform 0.5s cubic-bezier(0.17, 0.61, 0.54, 0.9);
+}
+
+.circle {
+  fill: #fff;
+  stroke: none;
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line1 {
+  stroke-dasharray: 60 90;
+  stroke-dashoffset: -20;
+}
+
+.line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2.75;
+  stroke-linecap: round;
+  -webkit-transition: stroke-dashoffset 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke-dashoffset 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line2 {
+  stroke-dasharray: 67 87;
+  stroke-dashoffset: -18;
+}

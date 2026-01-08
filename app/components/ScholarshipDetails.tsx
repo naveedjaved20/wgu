@@ -9,6 +9,21 @@ export default function ScholarshipDetails() {
   const toggleAccordion = (id: string) => {
     setOpenAccordion(openAccordion === id ? null : id);
   };
+
+  const downloadDocFromGoogle = () => {
+    const documentId = "1qq6_IwIpBldiuuSQyrx67WEVUYFyzuYWR8t4ZWUyBJw";
+    // Convert Google Docs URL to export format (PDF)
+    const exportUrl = `https://docs.google.com/document/d/${documentId}/export?format=pdf`;
+
+    // Create a temporary anchor element to trigger download
+    const link = document.createElement("a");
+    link.href = exportUrl;
+    link.download = "scholarship-document.pdf";
+    link.target = "_blank";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section className="mb-12 mt-15">
       <div className="flex flex-col lg:flex-row gap-8 mb-12 pl-8">
@@ -85,7 +100,12 @@ export default function ScholarshipDetails() {
           <p className="text-[17px] text-center text-gray-900 mb-4 font-[500]">
             The first step is to apply for admission.
           </p>
-          <button className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button
+            onClick={() =>
+              (window.location.href = "https://apply.wgu.edu/register")
+            }
+            className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+          >
             Apply to WGU
           </button>
         </div>
@@ -105,7 +125,12 @@ export default function ScholarshipDetails() {
             </span>{" "}
             Apply for scholarships on the Scholarship Portal.
           </p>
-          <button className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button
+            onClick={() =>
+              (window.location.href = "https://wgu.scholarshipuniverse.com/")
+            }
+            className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+          >
             Apply for Scholarships
           </button>
         </div>
@@ -120,9 +145,44 @@ export default function ScholarshipDetails() {
             and institutional funding, WGU maintains a robust program of
             scholarships made available to qualified students.
           </p>
-          <button className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button
+            onClick={() =>
+              (window.location.href =
+                "https://www.wgu.edu/financial-aid-tuition/scholarships.html")
+            }
+            className="w-full py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+          >
             View All Scholarships
           </button>
+        </div>
+      </div>
+
+      {/* Scholarship Awards Section */}
+      <div className="mt-8 pl-8">
+        <h2 className="text-[55px] font-[400] line-height-[58px] text-[#003057] mb-6">
+          Scholarship Awards
+        </h2>
+        <div className="flex flex-col gap-3">
+          <div className="flex items-start gap-3">
+            <span className="text-[#003057] text-xl mt-1">•</span>
+            <p className="text-[18px] font-[400] text-gray-900">
+              <strong>Award:</strong> $3000 per academic session
+            </p>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-[#003057] text-xl mt-1">•</span>
+            <p className="text-[18px] font-[400] text-gray-900">
+              <strong>Coverage:</strong> Approximately 90% of session tuition
+              fees
+            </p>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-[#003057] text-xl mt-1">•</span>
+            <p className="text-[18px] font-[400] text-gray-900">
+              <strong>Renewability:</strong> Award per session, subject to
+              continued enrollment and eligibility
+            </p>
+          </div>
         </div>
       </div>
 
@@ -154,8 +214,14 @@ export default function ScholarshipDetails() {
           {openAccordion === "eligibility" && (
             <div className="py-8 px-10  leading-relaxed">
               <p>
-                For new students or returning graduates pursuing a degree from
-                the School of Business (Bachelor's or Master's) at WGU.
+                For new students or returning graduates pursuing an{" "}
+                <button
+                  onClick={() => downloadDocFromGoogle()}
+                  className="underline cursor-pointer"
+                >
+                  eligible degree program
+                </button>
+                (Bachelor's or Master's) at WGU.
               </p>
             </div>
           )}

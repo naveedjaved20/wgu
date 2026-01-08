@@ -5,25 +5,37 @@ export default function FinancialAid() {
     {
       name: "BUSINESS",
       icon: "/iconsImage/Icon_Business.svg",
-      degrees: ["Bachelor's Degrees", "Master's Degrees", "See All Degrees"],
+      degrees: [
+        { text: "Bachelor's Degrees", url: "https://www.wgu.edu/online-business-degrees/bachelors-programs.html" },
+        { text: "Master's Degrees", url: "https://www.wgu.edu/online-business-degrees/masters-programs.html" },
+        { text: "See All Degrees", url: "https://www.wgu.edu/online-business-degrees.html" },
+      ],
     },
     {
       name: "TECHNOLOGY",
       icon: "/iconsImage/Icon_IT.svg",
-      degrees: ["Bachelor's Degrees", "Master's Degrees", "IT Certifications"],
+      degrees: [
+        { text: "Bachelor's Degrees", url: "https://www.wgu.edu/online-it-degrees/bachelors-programs.html" },
+        { text: "Master's Degrees", url: "https://www.wgu.edu/online-it-degrees/masters-programs.html" },
+        { text: "IT Certifications", url: "https://www.wgu.edu/online-it-degrees/it-certifications.html" },
+      ],
     },
     {
       name: "HEALTH & NURSING",
       icon: "/iconsImage/Icon_Health.svg",
-      degrees: ["Bachelor's Degrees", "Master's Degrees", "Certificates"],
+      degrees: [
+        { text: "Bachelor's Degrees", url: "https://www.wgu.edu/online-nursing-health-degrees/bachelors-programs.html" },
+        { text: "Master's Degrees", url: "https://www.wgu.edu/online-nursing-health-degrees/masters-programs.html" },
+        { text: "Certificates", url: "https://www.wgu.edu/online-nursing-health-degrees/post-masters-nursing-certificate.html" },
+      ],
     },
     {
       name: "EDUCATION",
       icon: "/iconsImage/Icon_Teaching.svg",
       degrees: [
-        "Bachelor's Degrees",
-        "Master's Degrees",
-        "State Licensure Information",
+        { text: "Bachelor's Degrees", url: "https://www.wgu.edu/online-teaching-degrees/education-bachelors-degrees.html" },
+        { text: "Master's Degrees", url: "https://www.wgu.edu/online-teaching-degrees/education-masters-programs.html" },
+        { text: "State Licensure Information", url: "https://www.wgu.edu/online-teaching-degrees/state-licensure.html" },
       ],
     },
   ];
@@ -46,7 +58,16 @@ export default function FinancialAid() {
                 />
               </div>
               <p className="text-[18px] w-[300px] text-center mb-4">
-                When you complete the FAFSA, be sure to list WGU's school code.
+                When you complete the{" "}
+                <a
+                  href="https://studentaid.gov/understand-aid/eligibility/requirements/non-us-citizens"
+                  className="underline cursor-pointer hover:text-blue-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  FAFSA
+                </a>
+                , be sure to list WGU's school code.
               </p>
               <p className="text-[26px] text-center font-bold">
                 Code: <span className="">033394</span>
@@ -66,7 +87,10 @@ export default function FinancialAid() {
                 most students. Subsidized loans, which are dependent on
                 financial need, reduce the interest due on loans.
               </p>
-              <button className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+              <button 
+                onClick={() => window.location.href = "https://www.wgu.edu/financial-aid-tuition/financial-aid.html"}
+                className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+              >
                 See More Financial Aid Info
               </button>
             </div>
@@ -110,10 +134,10 @@ export default function FinancialAid() {
                   {school.degrees.map((degree, degreeIndex) => (
                     <a
                       key={degreeIndex}
-                      href="#"
-                      className="flex flex-row w-full justify-between text-[17px] text-[#0070f0] flex items-center gap-1 group"
+                      href={degree.url}
+                      className="flex flex-row w-full justify-between text-[17px] text-[#0070f0] flex items-center gap-1 group cursor-pointer"
                     >
-                      <span>{degree}</span>
+                      <span>{degree.text}</span>
                       <div className="bg-[#2d8eff33] rounded-full p-1 flex items-center justify-center group-hover:translate-x-1 transition-transform duration-300">
                         {" "}
                         <svg
@@ -126,7 +150,7 @@ export default function FinancialAid() {
                           <path
                             d="M0 5.31372H11M11 5.31372L6.45924 1M11 5.31372L6.45924 9.62745"
                             stroke="#2D8EFF"
-                            stroke-width="1.5"
+                            strokeWidth="1.5"
                           />
                         </svg>
                       </div>

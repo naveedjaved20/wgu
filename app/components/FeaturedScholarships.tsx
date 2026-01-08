@@ -7,18 +7,21 @@ export default function FeaturedScholarships() {
       amount: "$4,000",
       deadline: "June 30th, 2026",
       icon: "/iconsImage/scholarship-icon-4000.webp",
+      url: "https://www.wgu.edu/financial-aid-tuition/scholarships/general/resiliency-grant.html",
     },
     {
       title: "Learn Where you Live Scholarship",
       amount: "$3,000",
       deadline: "June 30, 2026",
       icon: "/iconsImage/scholarship-icon-3000.webp",
+      url: "https://www.wgu.edu/financial-aid-tuition/scholarships/general/rural.html",
     },
     {
       title: "Active Duty Scholarship",
       amount: "$2,500",
       deadline: "June 30, 2026",
       icon: "/iconsImage/scholarship-icon-2500.webp",
+      url: "https://www.wgu.edu/financial-aid-tuition/scholarships/military-veterans/active-duty.html",
     },
   ];
 
@@ -49,7 +52,10 @@ export default function FeaturedScholarships() {
             <p className="text-[15px] mb-2">
               Application Deadline: {scholarship.deadline}
             </p>
-            <button className="w-full pt-3 text-black rounded-full text-sm font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+            <button 
+              onClick={() => window.location.href = scholarship.url}
+              className="w-full pt-3 text-black rounded-full text-sm font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2 cursor-pointer"
+            >
               View Scholarship
               <div className="bg-[#2d8eff33] rounded-full p-1 flex items-center justify-center">
                 {" "}
@@ -63,7 +69,7 @@ export default function FeaturedScholarships() {
                   <path
                     d="M0 5.31372H11M11 5.31372L6.45924 1M11 5.31372L6.45924 9.62745"
                     stroke="#2D8EFF"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                   />
                 </svg>
               </div>

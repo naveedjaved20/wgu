@@ -8,7 +8,10 @@ export default function DonorRecognition() {
         individuals, including WGU alumni, faculty, and staff. Learn how donors
         can make a difference at WGU.
       </p>
-      <button className="px-8 py-3 bg-white text-[#003057] rounded-full text-sm font-semibold hover:opacity-90 transition-opacity pl-8">
+      <button 
+        onClick={() => window.location.href = "https://www.wgu.edu/advancement.html"}
+        className="px-8 py-3 bg-white text-[#003057] rounded-full text-sm font-semibold hover:opacity-90 transition-opacity pl-8 cursor-pointer"
+      >
         Visit WGU Advancement
       </button>
     </section>

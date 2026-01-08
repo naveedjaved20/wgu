@@ -102,69 +102,66 @@ export default function Home() {
           <div className="flex gap-4 px-4 py-4 min-w-max">
             <a
               href="#"
-              className={`text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors ${
+              className={` text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors ${
                 !mobileSidebarSticky ? "border-b-2 border-[#003057]" : ""
               }`}
             >
               Overview
             </a>
             <a
-              href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              href="https://www.wgu.edu/financial-aid-tuition/financial-aid.html"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Financial Aid
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Tuition - School of Technology
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Tuition - Leavitt School of Health
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Tuition - School of Business
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Tuition - School of Education
             </a>
-            <a
-              href="#"
-              className="text-[#003057] font-semibold text-base py-2 px-4 whitespace-nowrap"
-            >
+            <a href="#" className=" text-[18px] py-2 [400]tespace-nowrap">
               Scholarships
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Corporate Reimbursement
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Net Price Calculator
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Tuition Comparison
             </a>
             <a
               href="#"
-              className="text-gray-900 hover:text-[#003057] text-base font-semibold py-2 px-4 whitespace-nowrap transition-colors"
+              className=" text-[18px] font-[400] py-2 px-4 whitespace-nowrap transition-colors"
             >
               Payment Plans
             </a>
@@ -180,7 +177,7 @@ export default function Home() {
         <aside
           ref={sidebarRef}
           className={`w-[330px] flex-shrink-0 hidden lg:block transition-all duration-300 ${
-            sidebarSticky ? "lg:sticky lg:top-0 h-screen xl:max-h-screen" : ""
+            sidebarSticky ? "lg:sticky lg:top-0 lg:max-h-screen lg:overflow-y-auto" : ""
           }`}
         >
           <Sidebar />
@@ -196,21 +193,56 @@ export default function Home() {
           </main>
         </div>
       </div>
-      <footer ref={footerRef}>
+      <footer
+        className="text-white pt-12 pb-8 px-4 xl:px-8 relative z-10"
+        style={{
+          background:
+            "radial-gradient(91.7% 109.57% at 73.16% 8.3%, #002147 0, #001329 100%)",
+        }}
+        ref={footerRef}
+      >
         <Footer />
       </footer>
-      <div className="fixed bottom-8 right-8 w-14 h-14 bg-[#001731] rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:scale-110 transition-transform z-50">
+      <div className="fixed bottom-8 right-8 w-14 h-14 bg-[#0070f0] rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:scale-110 transition-transform z-50">
         <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+          className="cursor-pointer relative chat-bubble"
+          width="100"
+          height="100"
+          viewBox="0 0 100 100"
         >
-          <path
-            d="M12 2C6.48 2 2 6.48 2 12C2 13.54 2.36 14.98 2.97 16.29L2 22L7.71 21.03C9.02 21.64 10.46 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2Z"
-            fill="white"
-          />
+          <g className="bubble">
+            <path
+              className="line line1"
+              d="M 30.7873,85.113394 30.7873,46.556405 C 30.7873,41.101961
+                    36.826342,35.342 40.898074,35.342 H 59.113981 C 63.73287,35.342
+                    69.29995,40.103201 69.29995,46.784744"
+            ></path>
+            <path
+              className="line line2"
+              d="M 13.461999,65.039335 H 58.028684 C
+                    63.483128,65.039335
+                    69.243089,59.000293 69.243089,54.928561 V 45.605853 C
+                    69.243089,40.986964 65.02087,35.419884 58.339327,35.419884"
+            ></path>
+          </g>
+          <circle
+            className="circle circle1"
+            r="1.9"
+            cy="50.7"
+            cx="42.5"
+          ></circle>
+          <circle
+            className="circle circle2"
+            cx="49.9"
+            cy="50.7"
+            r="1.9"
+          ></circle>
+          <circle
+            className="circle circle3"
+            r="1.9"
+            cy="50.7"
+            cx="57.3"
+          ></circle>
         </svg>
       </div>
     </div>

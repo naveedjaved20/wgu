@@ -45,6 +45,29 @@ export default function FAQ() {
       question: "Can I also apply for financial aid?",
       answer:
         "Yes, you should also apply for federal financial aid by filling out a FAFSA. Most scholarships at WGU require a FAFSA on file unless you are not eligible to apply for federal aid. If awarded a scholarship, that amount will likely only cover a portion of your school expenses, and financial aid can help pay for the rest. You can apply for financial aid while you are waiting for a decision about your scholarship application. Here is the full information on financial aid.",
+      answerWithLinks: (
+        <>
+          Yes, you should also apply for federal financial aid by filling out a{" "}
+          <a
+            href="https://studentaid.gov/understand-aid/eligibility/requirements/non-us-citizens"
+            className="underline cursor-pointer hover:text-blue-600"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            FAFSA
+          </a>
+          . Most scholarships at WGU require a{" "}
+          <a
+            href="https://studentaid.gov/understand-aid/eligibility/requirements/non-us-citizens"
+            className="underline cursor-pointer hover:text-blue-600"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            FAFSA
+          </a>{" "}
+          on file unless you are not eligible to apply for federal aid. If awarded a scholarship, that amount will likely only cover a portion of your school expenses, and financial aid can help pay for the rest. You can apply for financial aid while you are waiting for a decision about your scholarship application. Here is the full information on financial aid.
+        </>
+      ),
     },
     {
       id: "scholarship-universe",
@@ -86,7 +109,7 @@ export default function FAQ() {
             </button>
             {openAccordion === item.id && (
               <div className="pb-5 pt-5 px-4 text-gray-700 leading-relaxed whitespace-pre-line">
-                {item.answer}
+                {item.answerWithLinks || item.answer}
               </div>
             )}
           </div>
@@ -98,10 +121,16 @@ export default function FAQ() {
           Still have questions? More info can be found here:
         </p>
         <div className="flex flex-col sm:flex-row justify-between px-[20%] w-full">
-          <button className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button 
+            onClick={() => window.location.href = "https://www.wgu.edu/lp/programs/on-demand-webinars.html"}
+            className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+          >
             Watch Scholarships Webinar
           </button>
-          <button className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button 
+            onClick={() => window.location.href = "https://www.wgu.edu/financial-aid-tuition/scholarships/faqs.html"}
+            className="px-6 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+          >
             Scholarship FAQs
           </button>
         </div>

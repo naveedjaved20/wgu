@@ -16,7 +16,10 @@ export default function GetStarted() {
             admissions application and work with your Enrollment Counselor to
             move through the admissions process.
           </p>
-          <button className="w-full mt-10 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button 
+            onClick={() => window.location.href = "https://apply.wgu.edu/register"}
+            className="w-full mt-10 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+          >
             Complete New Student Application
           </button>
         </div>
@@ -31,7 +34,10 @@ export default function GetStarted() {
             30 days after your degree start date.
             <sup>2</sup>
           </p>
-          <button className="w-full mt-10 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+          <button 
+            onClick={() => window.location.href = "https://wgu.scholarshipuniverse.com/"}
+            className="w-full mt-10 py-3 bg-[#001731] text-white rounded-full text-sm font-semibold hover:opacity-90 transition-opacity cursor-pointer"
+          >
             Complete Scholarship Application
           </button>
         </div>
@@ -41,7 +47,14 @@ export default function GetStarted() {
           <sup>1</sup>
 
           <span className=" ml-2 text-[18px]  line-height-[28px] leading-relaxed ">
-            Returning WGU graduates should complete the
+            Returning WGU graduates should complete the{" "}
+            <a
+              href="https://my.wgu.edu/"
+              className="underline cursor-pointer hover:text-blue-300"
+            >
+              Returning Graduate Application
+            </a>
+            .
           </span>
         </p>
         <p className="text-[18px]  line-height-[28px] leading-relaxed ">
@@ -49,14 +62,15 @@ export default function GetStarted() {
 
           <span className=" ml-2 text-[18px]  line-height-[28px] leading-relaxed ">
             Completing a current aid year FAFSA is required if eligible to
-            submit the
+            submit the{" "}
             <a
               title="FAFSA eligibility for non-US citizens"
               href="https://studentaid.gov/understand-aid/eligibility/requirements/non-us-citizens"
+              className="underline cursor-pointer hover:text-blue-300"
             >
               FAFSA
             </a>
-            f you are ineligible to receive federal aid via the FAFSA, you will
+            . If you are ineligible to receive federal aid via the FAFSA, you will
             still have opportunity to be considered for WGU scholarships.
           </span>
         </p>

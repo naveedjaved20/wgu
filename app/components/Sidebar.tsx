@@ -13,7 +13,7 @@ export default function Sidebar() {
             Overview
           </a>
           <a
-            href="#"
+            href="https://www.wgu.edu/financial-aid-tuition/financial-aid.html"
             className="sidebar-link-hover text-[20px] font-[400] text-[#001731] py-2 transition-all relative hover:font-[450] "
           >
             Financial Aid
@@ -84,7 +84,10 @@ export default function Sidebar() {
           <div className="relative">
             <p className="text-[18px] font-[700] opacity-90">Next Start Date</p>
             <p className="text-[26px] font-[700] mb-6">February 1</p>
-            <button className="w-full py-3 bg-white text-[#003057] rounded-full text-sm font-semibold hover:opacity-90 transition-opacity uppercase">
+            <button 
+              onClick={() => window.location.href = "https://apply.wgu.edu/register"}
+              className="w-full py-3 bg-white text-[#003057] rounded-full text-sm font-semibold hover:opacity-90 transition-opacity uppercase"
+            >
               APPLY TODAY
             </button>
           </div>

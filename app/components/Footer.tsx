@@ -2,15 +2,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer
-      className="text-white pt-12 pb-8 px-4 md:px-8"
-      style={{
-        background:
-          "radial-gradient(91.7% 109.57% at 73.16% 8.3%, #002147 0, #001329 100%)",
-      }}
-    >
+    <>
       {/* Upper Section - Branding and Navigation */}
-      <div className="max-w-[1400px] mx-auto mb-8">
+      <div className="lg:max-w-[1400px] mx-auto mb-8">
         {/* Branding with Owl Icon - Top Left */}
         <div className="mb-8">
           <Image
@@ -23,14 +17,14 @@ export default function Footer() {
         </div>
 
         {/* Navigation Columns - Below Logo */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1">
           <div className="flex flex-col gap-3">
             <h4 className="text-sm font-bold mb-2 text-gray-400">
               The University
             </h4>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/about.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 About Us
@@ -38,7 +32,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/admissions/accessibility.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Accessibility
@@ -46,7 +40,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/student-experience/how-you-learn/accreditation.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Accreditation
@@ -54,7 +48,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/newsroom.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Newsroom
@@ -62,7 +56,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/about/careers.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Careers
@@ -75,7 +69,7 @@ export default function Footer() {
             </h4>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/student-portal.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Student Portal
@@ -83,7 +77,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/admissions.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Admissions
@@ -91,7 +85,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/about/institutional-catalog.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Catalog
@@ -99,7 +93,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/student-experience/title-ix.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Title IX
@@ -107,7 +101,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/alumni.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Alumni Services
@@ -120,7 +114,7 @@ export default function Footer() {
             </h4>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/online-business-degrees.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Business Programs
@@ -128,7 +122,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/online-degree-programs/bachelors.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Bachelor's Degrees
@@ -136,7 +130,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/student-experience.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Student Experience
@@ -144,7 +138,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/online-degree-programs.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Online Degrees
@@ -152,7 +146,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="#"
+                href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
                 className="text-sm transition-opacity footer-link-animated"
               >
                 Scholarships
@@ -161,11 +155,11 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-3">
             <h4 className="text-sm font-bold mb-2 text-gray-400">Support</h4>
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-col lg:flex-row gap-10">
               <div className="flex flex-col gap-3">
                 <div>
                   <a
-                    href="#"
+                    href="https://www.wgu.edu/student-experience/military.html"
                     className="text-sm transition-opacity footer-link-animated"
                   >
                     Military
@@ -173,7 +167,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://www.wgu.edu/financial-aid-tuition/financial-aid.html"
                     className="text-sm transition-opacity footer-link-animated"
                   >
                     Financial Aid
@@ -181,7 +175,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://www.wgu.edu/student-experience/student-resources/testimonials.html"
                     className="text-sm transition-opacity footer-link-animated"
                   >
                     Testimonials
@@ -191,7 +185,7 @@ export default function Footer() {
               <div className="flex flex-col gap-3">
                 <div>
                   <a
-                    href="#"
+                    href="https://www.wgu.edu/financial-aid-tuition/scholarships.html"
                     className="text-sm transition-opacity footer-link-animated"
                   >
                     Scholarships
@@ -199,7 +193,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://www.wgu.edu/student-experience/how-you-learn/faculty.html"
                     className="text-sm transition-opacity footer-link-animated"
                   >
                     Faculty
@@ -207,7 +201,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://www.wgu.edu/student-experience/student-resources/communities.html"
                     className="text-sm transition-opacity footer-link-animated"
                   >
                     Student Communities
@@ -220,32 +214,32 @@ export default function Footer() {
       </div>
 
       {/* Lower Section - Legal, Social, and Copyright */}
-      <div className="max-w-[1400px] mx-auto mb-12 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="lg:max-w-[1400px] mx-auto mb-12 flex flex-col lg:flex-row justify-between items-center gap-4">
         {/* Legal Links */}
-        <div className="flex items-center gap-2 text-xs w-full">
+        <div className="flex flex-wrap items-center gap-2 text-xs w-full">
           <a
-            href="#"
+            href="https://www.wgu.edu/privacy.html"
             className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
           >
             Privacy Policy
           </a>
           <span className="">|</span>
           <a
-            href="#"
+            href="https://www.wgu.edu/privacy/cookies.html"
             className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
           >
             Cookie Policy
           </a>
           <span className="">|</span>
           <a
-            href="#"
+            href="https://www.wgu.edu/contact.html"
             className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
           >
             Contact Us
           </a>
           <span className="">|</span>
           <a
-            href="#"
+            href="https://www.wgu.edu/sitemap.html"
             className="text-[18px] opacity-90 hover:opacity-100 transition-opacity footer-link-animated"
           >
             Sitemap
@@ -253,11 +247,11 @@ export default function Footer() {
         </div>
 
         {/* Social Media Icons and Copyright */}
-        <div className="flex items-center gap-10 w-full">
+        <div className="flex flex-col lg:flex-row items-center gap-10 w-full">
           {/* Social Media Icons - Circular with borders */}
           <div className="flex gap-3">
             <a
-              href="#"
+              href="https://www.linkedin.com/school/western-governors-university/"
               aria-label="LinkedIn"
               className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
@@ -282,7 +276,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/wgu.edu/"
               aria-label="Facebook"
               className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
@@ -309,7 +303,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/westerngovernorsu/"
               aria-label="Instagram"
               className="w-10 h-10 rounded-full border-2 border-[#002147] flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
@@ -351,7 +345,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.youtube.com/user/WesternGovernorsUniv"
               aria-label="YouTube"
               className="w-10 h-10 rounded-full border-1 border-white/30 flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
@@ -366,7 +360,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.tiktok.com/@wgu"
               aria-label="TikTok"
               className="w-10 h-10 rounded-full border-1 border-white/30 flex items-center justify-center bg-transparent hover:bg-white/10 transition-colors"
             >
@@ -387,6 +381,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </footer>
+    </>
   );
 }
