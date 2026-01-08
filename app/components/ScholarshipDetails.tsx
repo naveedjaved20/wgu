@@ -92,7 +92,7 @@ export default function ScholarshipDetails() {
           <h3 className="text-[18px] text-center font-[500] mb-4">
             Scholarship (valued up to):
           </h3>
-          <p className="text-[58px] text-center font-bold mb-4">$3,000</p>
+          <p className="text-[58px] text-center font-bold mb-4">$4,000</p>
           <p className="text-[16px] text-center font-[400] leading-relaxed text-gray-900">
             This scholarship will be credited to your account at the rate of
             $750 per six-month term, and renewable for up to four terms.
