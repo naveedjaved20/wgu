@@ -204,7 +204,7 @@ export default function Home() {
         <Footer />
       </footer>
       <div
-        className="fixed bottom-8 right-8 w-14 h-14 rounded-full flex items-center justify-center cursor-pointer transition-transform hover:scale-110 z-50"
+        className="fixed bottom-2 right-2 w-15 h-15 rounded-full flex items-center justify-center cursor-pointer transition-transform hover:scale-110 z-50"
         style={{ backgroundColor: "#2F78F8", boxShadow: "0 18px 30px rgba(47,120,248,0.18)" }}
       >
         {/* Provided SVG chat bubble — adapted to JSX */}
