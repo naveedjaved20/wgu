@@ -147,33 +147,39 @@ body {
 
 /* Chat bubble animations */
 .chat-bubble .circle {
-  animation: pulse 1.5s ease-in-out infinite;
+  animation: none !important;
 }
 
-.chat-bubble .circle1 {
-  animation-delay: 0s;
-}
-
-.chat-bubble .circle2 {
-  animation-delay: 0.2s;
-}
-
+.chat-bubble .circle1,
+.chat-bubble .circle2,
 .chat-bubble .circle3 {
-  animation-delay: 0.4s;
+  animation: none !important;
 }
 
 .chat-bubble .line {
-  stroke-dasharray: 100;
-  stroke-dashoffset: 100;
-  animation: drawLine 2s ease-in-out infinite;
+  /* disable drawing animation and ensure full stroke visible */
+  animation: none !important;
+  stroke-dasharray: none !important;
+  stroke-dashoffset: 0 !important;
 }
 
-.chat-bubble .line1 {
-  animation-delay: 0.5s;
-}
-
+.chat-bubble .line1,
 .chat-bubble .line2 {
-  animation-delay: 0.7s;
+  animation: none !important;
+  stroke-dasharray: none !important;
+  stroke-dashoffset: 0 !important;
+}
+
+/* Force no transitions or transforms for chat-bubble elements */
+.chat-bubble .bubble,
+.chat-bubble .circle,
+.chat-bubble .line,
+.chat-bubble .line1,
+.chat-bubble .line2 {
+  transition: none !important;
+  -webkit-transition: none !important;
+  transform: none !important;
+  -webkit-transform: none !important;
 }
 
 @keyframes pulse {
