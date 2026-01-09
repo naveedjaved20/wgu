@@ -72,7 +72,7 @@ export default function ScholarshipDetails() {
           is designed to support Black women who are pursuing higher education
           in{" "}
           <b className="font-[500]">
-            Accounting, Finance, Business Administration, or Project Management
+            Accounting, Finance, Business Administration, or Project Management&nbsp;
           </b>
           at <b className="font-[500]"> Western Governors University (WGU)</b>.
           This scholarship aims to reduce financial barriers, encourage academic
