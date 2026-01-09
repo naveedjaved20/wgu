@@ -39,9 +39,9 @@ export default function ScholarshipDetails() {
           <p className="mb-4">
             Western Governors University is pleased to announce the{" "}
             <strong className="text-[#003057] font-semibold">
-              Speed of Business Scholarship
+              Administrative Professionals Scholarship
             </strong>{" "}
-            (worth up to $3,000) that can be applied toward any of WGU's School
+            (worth up to $4,000) that can be applied toward any of WGU's School
             of Business degree programs.
           </p>
           <p className="mb-4">
@@ -67,7 +67,7 @@ export default function ScholarshipDetails() {
         <p className=" font-[400]">
           The{" "}
           <b className="font-[500]">
-            Future Black Women in Business & Finance Scholarship
+            Administrative Professionals Scholarship
           </b>{" "}
           is designed to support Black women who are pursuing higher education
           in{" "}
@@ -114,7 +114,7 @@ export default function ScholarshipDetails() {
           <h3 className="text-[18px] text-center font-[500] mb-4">
             Deadline (per 2025-26 aid year):
           </h3>
-          <p className="text-[58px] text-center font-bold mb-4">01/12/26</p>
+          <p className="text-[58px] text-center font-bold mb-4">01/14/26</p>
           <p className="text-[16px] text-center font-[400] leading-relaxed text-gray-900">
             Before you can apply for this scholarship, you must first apply for
             admission.
@@ -166,7 +166,7 @@ export default function ScholarshipDetails() {
           <div className="flex items-start gap-3">
             <span className="text-[#003057] text-xl mt-1">•</span>
             <p className="text-[18px] font-[400] text-gray-900">
-              <strong>Award:</strong> $3000 per academic session
+              <strong>Award:</strong> $4000 per academic session
             </p>
           </div>
           <div className="flex items-start gap-3">
