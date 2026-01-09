@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function FeaturedScholarships() {
   const scholarships = [
     {
@@ -38,11 +36,10 @@ export default function FeaturedScholarships() {
           >
             <div className="flex justify-center mb-4">
               <div className="w-20 h-20 relative">
-                <Image
-                  src={scholarship.icon}
+                <img
+                  src={scholarship.icon}      // <-- Use normal img
                   alt={`${scholarship.amount} scholarship icon`}
-                  fill
-                  className="object-contain"
+                  className="object-contain w-full h-full"
                 />
               </div>
             </div>
@@ -58,7 +55,6 @@ export default function FeaturedScholarships() {
             >
               View Scholarship
               <div className="bg-[#2d8eff33] rounded-full p-1 flex items-center justify-center">
-                {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="13"

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+
 
 export default function ScholarshipDetails() {
   const [openAccordion, setOpenAccordion] = useState<string | null>(null);
@@ -28,10 +28,9 @@ export default function ScholarshipDetails() {
     <section className="mb-12 mt-15">
       <div className="flex flex-col lg:flex-row gap-8 mb-12 pl-8">
         <div className="flex-1 max-h-[300px] max-w-[40%] relative overflow-hidden">
-          <Image
+          <img
             src="/iconsImage/mainSection.jpeg"
             alt="Two professionals at desk"
-            fill
             className="object-cover"
           />
         </div>

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
 export default function Header() {
@@ -54,13 +53,12 @@ export default function Header() {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-[900] shadow-xl w-full left-0 right-0">
       <div className="relative max-w-[1470px] mx-auto px-3 sm:px-4 md:px-8 py-3 sm:py-[10px] flex items-center justify-between gap-2 sm:gap-4 lg:gap-8 z-[999]">
         <div className="flex items-center gap-2 flex-shrink-0">
-          <Image
+          <img
             src="/wgu-logo.svg"
             alt="WGU Logo"
             width={120}
             height={40}
             className="h-[30px] sm:h-[30px] md:h-[30px] w-auto"
-            priority
           />
           <nav
             className="hidden  lg:flex gap-6 xl:gap-6 flex-1 justify-center ml-8 relative"

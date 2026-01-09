@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function FinancialAid() {
   const schools = [
     {
@@ -49,12 +47,10 @@ export default function FinancialAid() {
             {/* Left Column - FAFSA */}
             <div className="flex-shrink-0 flex justify-center flex-col items-center">
               <div className="mb-4">
-                <Image
+                <img
                   src="/iconsImage/fafsa-illustration.webp"
                   alt="FAFSA Federal Student Aid"
-                  width={265}
-                  height={120}
-                  className="mb-2"
+                  className="mb-2 w-[265px] h-[120px]"
                 />
               </div>
               <p className="text-[18px] w-[300px] text-center mb-4">
@@ -118,11 +114,9 @@ export default function FinancialAid() {
                         "radial-gradient(91.7% 109.57% at 73.16% 8.3%, #014ca2 0, #0070f0 100%)",
                     }}
                   />
-                  <Image
-                    src={school.icon}
+                  <img
+                    src={school.icon}      // <-- replaced next/image
                     alt={school.name}
-                    width={24}
-                    height={24}
                     className="w-7 h-7 relative z-10 ml-3 transition-all duration-300 group-hover:brightness-0 group-hover:invert"
                   />
                   <h3 className="text-sm font-bold text-gray-900 uppercase relative z-10 group-hover:text-white transition-colors duration-300">
@@ -139,7 +133,6 @@ export default function FinancialAid() {
                     >
                       <span>{degree.text}</span>
                       <div className="bg-[#2d8eff33] rounded-full p-1 flex items-center justify-center group-hover:translate-x-1 transition-transform duration-300">
-                        {" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="13"

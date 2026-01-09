@@ -1,19 +1,18 @@
-import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative w-full h-[500px] md:h-[450px] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <Image
+        <img
           src="/iconsImage/heroSection.jpeg"
           alt="Business header"
-          fill
+          
           className="object-cover"
           style={{
             objectPosition: "50% 15%",
           }}
-          priority
+          
         />
         {/* Custom Gradient Overlay - Only on left side */}
         <div
