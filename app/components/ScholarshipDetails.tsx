@@ -39,7 +39,7 @@ export default function ScholarshipDetails() {
           <p className="mb-4">
             Western Governors University is pleased to announce the{" "}
             <strong className="text-[#003057] font-semibold">
-              Administrative Professionals Scholarship
+              Future Black Women in Business & Finance Scholarship
             </strong>{" "}
             (worth up to $4,000) that can be applied toward any of WGU's School
             of Business degree programs.
@@ -67,7 +67,7 @@ export default function ScholarshipDetails() {
         <p className=" font-[400]">
           The{" "}
           <b className="font-[500]">
-            Administrative Professionals Scholarship
+            Future Black Women in Business & Finance Scholarship
           </b>{" "}
           is designed to support Black women who are pursuing higher education
           in{" "}

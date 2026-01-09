@@ -49,8 +49,8 @@ export default function Hero() {
                 textShadow: "2px 2px 5px #000",
               }}
             >
-              Administrative <br />
-              Professionals Scholarships
+              Future Black Women <br />
+              in Business & Finance Scholarship
             </h1>
             <button 
               onClick={() => window.location.href = "https://apply.wgu.edu/register"}
